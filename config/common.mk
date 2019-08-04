@@ -121,6 +121,10 @@ PRODUCT_PACKAGES += \
 # Themes OVerlay
 include packages/overlays/Themes/themes.mk
 
+# Wings-specific init rc file
+PRODUCT_COPY_FILES += \
+    vendor/wings/prebuilt/common/etc/init/init.wings-system_ext.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/init.wings-system_ext.rc
+
 # Include Wings Branding
 include vendor/wings/config/version.mk
 
