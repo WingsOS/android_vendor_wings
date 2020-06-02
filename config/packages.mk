@@ -96,3 +96,7 @@ PRODUCT_PACKAGES += \
 # BtHelper
 PRODUCT_PACKAGES += \
     BtHelper
+
+# TouchGestures
+PRODUCT_PACKAGES += \
+    TouchGestures
