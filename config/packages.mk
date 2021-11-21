@@ -101,9 +101,9 @@ PRODUCT_PACKAGE_OVERLAYS += \
     vendor/wings/overlay/no-rro
 
 PRODUCT_PACKAGES += \
+    CustomPixelLauncherOverlay \
     DocumentsUIOverlay \
-    NetworkStackOverlay \
-    ThemedIconsOverlay
+    NetworkStackOverlay
 
 # BatteryStatsViewer
 PRODUCT_PACKAGES += \
