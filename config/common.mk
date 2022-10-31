@@ -58,6 +58,11 @@ PRODUCT_MINIMIZE_JAVA_DEBUG_INFO := true
 # Bootanimation
 include vendor/wings/config/bootanimation.mk
 
+# Enable whole-program R8 Java optimizations for SystemUI and system_server,
+# but also allow explicit overriding for testing and development.
+SYSTEM_OPTIMIZE_JAVA ?= true
+SYSTEMUI_OPTIMIZE_JAVA ?= true
+
 # Disable vendor restrictions
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
