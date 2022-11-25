@@ -96,3 +96,7 @@ PRODUCT_PACKAGES += \
     DocumentsUIOverlay \
     NetworkStackOverlay \
     ThemedIconsOverlay
+
+# BtHelper
+PRODUCT_PACKAGES += \
+    BtHelper
