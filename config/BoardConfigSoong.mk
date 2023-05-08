@@ -59,7 +59,8 @@ SOONG_CONFIG_wingsGlobalVars += \
     uses_legacy_fd_fbdev \
     uses_miui_camera \
     uses_nothing_camera \
-    uses_oplus_camera
+    uses_oplus_camera \
+    uses_oppo_camera
 
 SOONG_CONFIG_NAMESPACES += wingsNvidiaVars
 SOONG_CONFIG_wingsNvidiaVars += \
@@ -96,6 +97,7 @@ SOONG_CONFIG_wingsGlobalVars_target_alternative_futex_waiters := $(TARGET_ALTERN
 SOONG_CONFIG_wingsGlobalVars_camera_needs_client_info := $(TARGET_CAMERA_NEEDS_CLIENT_INFO)
 SOONG_CONFIG_wingsGlobalVars_camera_needs_client_info_lib := $(TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB)
 SOONG_CONFIG_wingsGlobalVars_uses_miui_camera := $(TARGET_USES_MIUI_CAMERA)
+SOONG_CONFIG_wingsGlobalVars_uses_oppo_camera := $(TARGET_USES_OPPO_CAMERA)
 
 # Set default values
 BOOTLOADER_MESSAGE_OFFSET ?= 0
