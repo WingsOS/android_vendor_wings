@@ -38,6 +38,7 @@ SOONG_CONFIG_wingsGlobalVars += \
     disable_bluetooth_le_set_host_feature \
     gralloc_handle_has_custom_content_md_reserved_size \
     gralloc_handle_has_reserved_size \
+    include_miui_camera \
     needs_camera_boottime \
     target_alternative_futex_waiters \
     target_health_charging_control_charging_path \
@@ -98,6 +99,7 @@ SOONG_CONFIG_wingsGlobalVars_camera_needs_client_info := $(TARGET_CAMERA_NEEDS_C
 SOONG_CONFIG_wingsGlobalVars_camera_needs_client_info_lib := $(TARGET_CAMERA_NEEDS_CLIENT_INFO_LIB)
 SOONG_CONFIG_wingsGlobalVars_uses_miui_camera := $(TARGET_USES_MIUI_CAMERA)
 SOONG_CONFIG_wingsGlobalVars_uses_oppo_camera := $(TARGET_USES_OPPO_CAMERA)
+SOONG_CONFIG_wingsGlobalVars_include_miui_camera := $(TARGET_INCLUDES_MIUI_CAMERA)
 
 # Set default values
 BOOTLOADER_MESSAGE_OFFSET ?= 0
