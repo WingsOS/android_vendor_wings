@@ -16,10 +16,6 @@
 PRODUCT_PACKAGES += \
     WingsWallpaperStub
 
-# Config
-PRODUCT_PACKAGES += \
-    SimpleDeviceConfig
-
 # Extra tools in Wings
 PRODUCT_PACKAGES += \
     bash \
