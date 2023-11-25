@@ -134,4 +134,7 @@ include vendor/wings/config/packages.mk
 # Include Wings props
 $(call inherit-product, vendor/wings/config/wings_props.mk)
 
+# Include Pixel fw
+$(call inherit-product-if-exists, vendor/pixel-framework/config.mk)
+
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
