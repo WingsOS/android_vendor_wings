@@ -115,6 +115,9 @@ PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-3.9.1-vendorcompat \
     libprotobuf-cpp-lite-3.9.1-vendorcompat
 
+# Relax Broken Library Check
+PRODUCT_BROKEN_VERIFY_USES_LIBRARIES := true
+
 # Themes OVerlay
 include packages/overlays/Themes/themes.mk
 
