@@ -14,7 +14,8 @@
 
 # Wings packages
 PRODUCT_PACKAGES += \
-    WingsWallpaperStub
+    WingsWallpaperStub \
+    OmniStyle
 
 # Extra tools in Wings
 PRODUCT_PACKAGES += \
