@@ -1,5 +1,5 @@
-# Inherit common Lineage stuff
-$(call inherit-product, vendor/lineage/config/common_mobile.mk)
+# Inherit common Wings stuff
+$(call inherit-product, vendor/wings/config/common_mobile.mk)
 
 PRODUCT_SIZE := full
 
@@ -9,11 +9,7 @@ $(call inherit-product-if-exists, external/google-fonts/rubik/fonts.mk)
 
 # Apps
 PRODUCT_PACKAGES += \
-    Eleven \
-    Etar \
-    Profiles \
-    Recorder \
-    Seedvault
+    Recorder
 
 ifneq ($(PRODUCT_NO_CAMERA),true)
 PRODUCT_PACKAGES += \
