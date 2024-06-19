@@ -14,6 +14,7 @@
 
 # Wings packages
 PRODUCT_PACKAGES += \
+    Glimpse \
     WingsWallpaperStub \
     OmniStyle
 
